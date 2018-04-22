@@ -1,6 +1,8 @@
 {
   "name": "hopglass",
   "scripts": {
+    "prestart": "npm install && grunt default",
+    "start": "node server.js",
     "test": "node -e \"require('grunt').cli()\" '' clean lint"
   },
   "devDependencies": {
