@@ -8,19 +8,20 @@
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "grunt": "^0.4.5",
+    "grunt-bower-install-simple": "^1.1.2",
     "grunt-check-dependencies": "^0.6.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-connect": "^0.8.0",
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-cssmin": "^0.12.2",
     "grunt-contrib-requirejs": "^0.4.4",
-    "grunt-sass": "^1.1.0",
-    "grunt-postcss": "^0.7.2",
     "grunt-contrib-uglify": "^0.5.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-eslint": "^10.0.0",
-    "grunt-bower-install-simple": "^1.1.2",
-    "grunt-git-describe": "^2.3.2"
+    "grunt-git-describe": "^2.4.4",
+    "grunt-postcss": "^0.7.2",
+    "grunt-sass": "^1.1.0",
+    "gyp": "^0.5.0"
   },
   "eslintConfig": {
     "env": {
@@ -47,5 +48,6 @@
       "sum": false,
       "trueDefault": false
     }
-  }
+  },
+  "dependencies": {}
 }
